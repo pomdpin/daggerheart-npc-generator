@@ -69,3 +69,5 @@ urllib3==2.6.3
 watchdog==6.0.0
 
 namemaker==1.2
+
+setuptools==82.0.1
