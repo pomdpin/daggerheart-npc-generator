@@ -1,0 +1,202 @@
+{"Classe":["Barde Troubadour",
+"Barde Beau-Parleur",
+"Druide des Éléments",
+"Druide du Renouveau",
+"Gardien Fidèle",
+"Gardien Vengeur",
+"Guerrier de la Bravoure",
+"Guerrier Tueur de Monstres",
+"Magicien de l'Ecole de la Guerre",
+"Magicien de l'Ecole du Savoir",
+"Rodeur Pisteur",
+"Rodeur Maitre des Bêtes",
+"Roublard Marcheur d'Ombre",
+"Roublard du Syndicat",
+"Séraphin Porteur de Foi",
+"Séraphin Sentinelle Ailée",
+"Sorcier Élémentaire",
+"Sorcier Primordiale"],
+
+"Ascendance":{"Clank":{
+    "taille_min":50,
+    "taille_max":250,
+    "age_min": 10,
+    "age_max":1000
+}, 
+"Côa":{
+    "taille_min":90,
+    "taille_max":140,
+    "age_min": 10,
+    "age_max":100
+},
+"Drakona":{
+    "taille_min": 150,
+    "taille_max": 215,
+    "age_min": 10,
+    "age_max": 350
+},
+"Elfe":{
+    "taille_min":180,
+    "taille_max":200,
+    "age_min": 10,
+    "age_max": 350
+},
+"Faune":{
+    "taille_min": 122,
+    "taille_max":198,
+    "age_min": 10,
+    "age_max": 225
+},
+"Firbolg":{
+    "taille_min":150,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max":150
+},
+"Fungil":{
+    "taille_min":60,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max":300
+},
+"Fée":{
+    "taille_min":60,
+    "taille_max":152,
+    "age_min": 10,
+    "age_max": 50
+},
+"Galapa":{
+    "taille_min":120,
+    "taille_max":182,
+    "age_min": 10,
+    "age_max":150
+},
+"Géant":{
+    "taille_min":200,
+    "taille_max":260,
+    "age_min": 10,
+    "age_max": 75
+},
+"Gobelin":{
+    "taille_min": 80,
+    "taille_max": 120,
+    "age_min": 10,
+    "age_max":100
+},
+"Halfelin":{
+    "taille_min": 80,
+    "taille_max": 120,
+    "age_min": 10,
+    "age_max": 150
+},
+"Humain":{
+    "taille_min":152,
+    "taille_max":198,
+    "age_min": 10,
+    "age_max": 100
+},
+"Infernis":{
+    "taille_min":150,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max": 350
+},
+"Katari":{
+    "taille_min":90,
+    "taille_max":200,
+    "age_min": 10,
+    "age_max": 150
+},
+"Nain":{
+    "taille_min": 120,
+    "taille_max":167,
+    "age_min": 10,
+    "age_max": 250
+},
+"Orc":{
+    "taille_min":150,
+    "taille_max": 200,
+    "age_min": 10,
+    "age_max": 125
+},
+"Simiah":{
+    "taille_min":60,
+    "taille_max":180,
+    "age_min": 10,
+    "age_max": 100
+}
+},
+
+"Communauté": {"Communauté des Bas-Fonds":[
+    "Calculateur",
+    "Intelligent",
+    "Formidable",
+    "Tenace",
+    "Perceptif",
+    "Habile"
+],
+"Communauté Côtière":[
+    "Candide",
+    "Coopératif",
+    "Exhubérant",
+    "Fier",
+    "Résolu",
+    "Buriné"
+],
+"Communauté des Érudit":[
+    "Direct",
+    "Éloquent",
+    "Patient",
+    "Curieux",
+    "Désordonné",
+    "Ingénieux"
+],
+"Communauté Montagnarde":[
+    "Loyal",
+    "Réservé",
+    "Borné",
+    "Audacieux",
+    "Robuste",
+    "Indomptable"
+],
+"Communauté des Nobles":[
+    "Amiable", 
+    "Candide", 
+    "Entreprenant",
+    "Prétentieux",
+    "Sournois",
+    "Imperturbable"
+],
+"Communauté Nomade":[
+    "Magnanime",
+    "Insondable",
+    "Avisé",
+    "Joyeux",
+    "Fiable",
+    "Peu orthodoxe"
+],
+"Communauté de l'Ordre":[
+    "Ambitieux",
+    "Pensif",
+    "Prudent",
+    "Stoic",
+    "Sardonique",
+    "Bienveillant"
+],
+"Communauté Sauvage":[
+    "Loyal",
+    "Encourageant",
+    "Sagace",
+    "Vif",
+    "Reclus",
+    "Robuste"
+],
+"Communauté Souterraine":[
+    "Indomptable",
+    "Humble",
+    "Débrouillard",
+    "Insaissisable",
+    "Calme",
+    "Novateur"
+]}
+}

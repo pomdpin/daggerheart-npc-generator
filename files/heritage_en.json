@@ -1,0 +1,202 @@
+{"Classe":["Bard - Troubadour",
+"Bard - Wordsmith",
+"Druid - Warden of the Elements",
+"Druid - Warden of Renewal",
+"Guardian - Stalwart",
+"Guardian - Vengeance",
+"Warrior - Call of the Brave",
+"Warrior - Call of the Slayer",
+"Wizard - School of War",
+"Wzard - School of Knowledge",
+"Ranger - Wayfinder",
+"Ranger - Beastbound",
+"Rogue - Nightwalker",
+"Rogue - Syndicate",
+"Seraph - Divine Wielder",
+"Seraph - Winged Sentinel",
+"Sorcerer - Elemental Origin",
+"Sorcer - Primal Origin"],
+
+"Ascendance":{"Clank":{
+    "taille_min":50,
+    "taille_max":250,
+    "age_min": 10,
+    "age_max":1000
+}, 
+"Ribbet":{
+    "taille_min":90,
+    "taille_max":140,
+    "age_min": 10,
+    "age_max":100
+},
+"Drakona":{
+    "taille_min": 150,
+    "taille_max": 215,
+    "age_min": 10,
+    "age_max": 350
+},
+"Elf":{
+    "taille_min":180,
+    "taille_max":200,
+    "age_min": 10,
+    "age_max": 350
+},
+"Faun":{
+    "taille_min": 122,
+    "taille_max":198,
+    "age_min": 10,
+    "age_max": 225
+},
+"Firbolg":{
+    "taille_min":150,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max":150
+},
+"Fungril":{
+    "taille_min":60,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max":300
+},
+"Faery":{
+    "taille_min":60,
+    "taille_max":152,
+    "age_min": 10,
+    "age_max": 50
+},
+"Galapa":{
+    "taille_min":120,
+    "taille_max":182,
+    "age_min": 10,
+    "age_max":150
+},
+"Giant":{
+    "taille_min":200,
+    "taille_max":260,
+    "age_min": 10,
+    "age_max": 75
+},
+"Goblin":{
+    "taille_min": 80,
+    "taille_max": 120,
+    "age_min": 10,
+    "age_max":100
+},
+"Halfling":{
+    "taille_min": 80,
+    "taille_max": 120,
+    "age_min": 10,
+    "age_max": 150
+},
+"Human":{
+    "taille_min":152,
+    "taille_max":198,
+    "age_min": 10,
+    "age_max": 100
+},
+"Infernis":{
+    "taille_min":150,
+    "taille_max":215,
+    "age_min": 10,
+    "age_max": 350
+},
+"Katari":{
+    "taille_min":90,
+    "taille_max":200,
+    "age_min": 10,
+    "age_max": 150
+},
+"Dwarf":{
+    "taille_min": 120,
+    "taille_max":167,
+    "age_min": 10,
+    "age_max": 250
+},
+"Orc":{
+    "taille_min":150,
+    "taille_max": 200,
+    "age_min": 10,
+    "age_max": 125
+},
+"Simiah":{
+    "taille_min":60,
+    "taille_max":180,
+    "age_min": 10,
+    "age_max": 100
+}
+},
+
+"Communauté": {"Slyborne":[
+    "Calculating",
+    "Clever",
+    "Formidable",
+    "Tenacious",
+    "Perceptive",
+    "Shrewd"
+],
+"Seaborne":[
+    "Candide",
+    "Cooperative",
+    "Exhuberant",
+    "Fierce",
+    "Resolute",
+    "Weathered"
+],
+"Loreborne":[
+    "Direct",
+    "Eloquent",
+    "Patient",
+    "Inquisitive",
+    "Rhapsodic",
+    "Ingenious"
+],
+"Ridgeborne":[
+    "Loyal",
+    "Reserved",
+    "Stubborn",
+    "Bold",
+    "Hardy",
+    "Indomitable"
+],
+"Highborne":[
+    "Amiable", 
+    "Candid", 
+    "Enterprising",
+    "Ostentatious",
+    "Conniving",
+    "Imperturbable"
+],
+"Wanderborne":[
+    "Magnanimous",
+    "Unscrutable",
+    "Savvy",
+    "Mirthful",
+    "Reliable",
+    "Unorthodox"
+],
+"Orderborne":[
+    "Ambitious",
+    "Pensive",
+    "Prudent",
+    "Stoic",
+    "Sardonic",
+    "Benevolent"
+],
+"Wildborne":[
+    "Loyal",
+    "Hardy",
+    "Sagacious",
+    "Vibrant",
+    "Reclusive",
+    "Nurturing"
+],
+"Underborne":[
+    "Indomitable",
+    "Unpretentious",
+    "Resourceful",
+    "Elusive",
+    "Composed",
+    "Innovative"
+]}
+}
