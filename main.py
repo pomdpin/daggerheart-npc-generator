@@ -30,8 +30,9 @@ if st.button("Générer / Generate"):
     prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
     noms = namemaker.make_name_set(names["Noms de famille"], order=3, name_len_func=len, clean_up=True)
 
-    pnjs = []
     for _ in range(nombre_pnj):
+        pnjs_name = []
+        pnjs_description =[]
         name = random.choice(prenoms)
         surname = random.choice(noms)
         descr_general = []
@@ -52,10 +53,24 @@ if st.button("Générer / Generate"):
 
         phrase_descr_asc = " ".join(descr_asc)
         
-        pnjs.append(f"""{name} {surname}\n
-        {classe} faisant parti de la {community}, {name} est un(e) {ascendance} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtue {descr_general[1]} {descr_general[2]}.
-        \r{descr_general[3]} 
-        \r{name} {phrase_descr_asc}.""")
+        if language == "Français" :
+            pnjs_name.append(f"""
+            {name} {surname}""")
+            pnjs_description.append(f"""
+            {classe} faisant parti de la {community}\n
+            {name} est un(e) {ascendance} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtue {descr_general[1]} {descr_general[2]}.
+            {descr_general[3]} 
+            {name} {phrase_descr_asc}.            
+            __________________________________________________________________________""")
+        else : 
+            pnjs_name.append(f"""
+            {name} {surname}""")
+            pnjs_description(f"""
+            {community} {classe}\n
+            {name} is a {age}{age_terme} and {taille}cm tall {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}. {descr_general[3]} { name} {phrase_descr_asc}
+            __________________________________________________________________________""")
 
-    for pnj in pnjs:
-        st.write(pnj)
+        for pnj in pnjs_name:
+            st.subheader(pnj)
+        for pnj in pnjs_description:
+          st.write(pnj)
