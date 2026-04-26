@@ -5,8 +5,8 @@ import json
 from pathlib import Path
 import namemaker
 
-# Load your data
-app_folder = Path("C:/Users/yoann/OneDrive/Documents/Jeux de Rôles/Daggerheart/Applications/NPC-Generator/files")
+    # Load your data
+app_folder = Path("files")
 
 # Streamlit UI
 st.title("Daggerheart")
