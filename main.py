@@ -53,10 +53,12 @@ if st.button("Générer / Generate"):
 
         phrase_descr_asc = " ".join(descr_asc)
         
-        pnjs.append(f"""{name} {surname}\n
-        {classe} faisant parti de la {community}, {name} est un(e) {ascendance} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtue {descr_general[1]} {descr_general[2]}.
+        pnjs_name.append(f"""{name} {surname}""")
+        pnjs_description.append(f"""{classe} faisant parti de la {community}\n
+        {name} est un(e) {ascendance} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtue {descr_general[1]} {descr_general[2]}.
         \r{descr_general[3]} 
-        \r{name} {phrase_descr_asc}.""")
+        \r{name} {phrase_descr_asc}""")
+        
 
         for pnj in pnjs_name:
             st.subheader(pnj)
