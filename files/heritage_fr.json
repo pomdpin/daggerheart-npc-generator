@@ -1,21 +1,21 @@
-{"Classe":["barde Troubadour",
-"barde beau-parleur",
-"druide des éléments",
-"druide du renouveau",
-"Gardien fidèle",
+{"Classe":["Barde Troubadour",
+"Barde Beau-Parleur",
+"Druide des Éléments",
+"Druide du Renouveau",
+"Gardien Fidèle",
 "Gardien Vengeur",
-"Guerrier de la bravoure",
+"Guerrier de la Bravoure",
 "Guerrier Tueur de Monstres",
-"Magicien de l'ecole de la Guerre",
-"Magicien de l'ecole du savoir",
-"rodeur pisteur",
-"rodeur Maitre des bêtes",
-"roublard Marcheur d'Ombre",
-"roublard du syndicat",
-"séraphin porteur de foi",
-"séraphin sentinelle ailée",
-"sorcier élémentaire",
-"sorcier primordiale"],
+"Magicien de l'École de la Guerre",
+"Magicien de l'École du savoir",
+"Rodeur Pisteur",
+"Rodeur Maitre des bêtes",
+"Roublard Marcheur d'Ombre",
+"Roublard du Syndicat",
+"Séraphin Porteur de Foi",
+"Séraphin Sentinelle Ailée",
+"Sorcier Élémentaire",
+"Sorcier Primordiale"],
 
 "Ascendance":{"Clank":{
     "taille_min":50,
@@ -29,37 +29,37 @@
     "age_min": 10,
     "age_max":100
 },
-"drakona":{
+"Drakona":{
     "taille_min": 150,
     "taille_max": 215,
     "age_min": 10,
     "age_max": 350
 },
-"elfe":{
+"Elfe":{
     "taille_min":180,
     "taille_max":200,
     "age_min": 10,
     "age_max": 350
 },
-"faune":{
+"Faune":{
     "taille_min": 122,
     "taille_max":198,
     "age_min": 10,
     "age_max": 225
 },
-"firbolg":{
+"Firbolg":{
     "taille_min":150,
     "taille_max":215,
     "age_min": 10,
     "age_max":150
 },
-"fungil":{
+"Fungil":{
     "taille_min":60,
     "taille_max":215,
     "age_min": 10,
     "age_max":300
 },
-"fée":{
+"Fée":{
     "taille_min":60,
     "taille_max":152,
     "age_min": 10,
@@ -95,7 +95,7 @@
     "age_min": 10,
     "age_max": 100
 },
-"infernis":{
+"Infernis":{
     "taille_min":150,
     "taille_max":215,
     "age_min": 10,
@@ -119,7 +119,7 @@
     "age_min": 10,
     "age_max": 125
 },
-"simiah":{
+"Simiah":{
     "taille_min":60,
     "taille_max":180,
     "age_min": 10,
@@ -127,7 +127,7 @@
 }
 },
 
-"Communauté": {"Communauté des bas-fonds":[
+"Communauté": {"Communauté des Bas-fonds":[
     "calculateur",
     "intelligent",
     "formidable",
@@ -143,7 +143,7 @@
     "résolu",
     "buriné"
 ],
-"Communauté des érudit":[
+"Communauté des Érudit":[
     "direct",
     "éloquent",
     "patient",
