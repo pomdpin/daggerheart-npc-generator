@@ -61,14 +61,14 @@ if st.button("Générer / Generate"):
         if language == "Français":
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant parti de la {community},
-{name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtue {descr_general[1]} {descr_general[2]}.
+{name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
 {descr_general[3]}
 {name} {phrase_descr_asc}.
 ________________________________________________________"""
         else:
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
-{name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance}, wearing {descr_general[1]} {descr_general[2]}.
+{name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
 {descr_general[3]}.
 {name} {phrase_descr_asc}.
 ________________________________________________________"""
