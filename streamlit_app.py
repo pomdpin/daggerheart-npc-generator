@@ -67,7 +67,7 @@ if st.button("Générer / Generate"):
         else:
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
-{name} is a {personality} {age} {age_terme} / {taille} cm {ascendance}, wearing {descr_general[1]} {descr_general[2]}.
+{name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance}, wearing {descr_general[1]} {descr_general[2]}.
 {descr_general[3]}
 {name} {phrase_descr_asc}."""
 
