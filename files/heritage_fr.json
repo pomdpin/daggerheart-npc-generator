@@ -17,7 +17,7 @@
 "sorcier élémentaire",
 "sorcier primordiale"],
 
-"ascendance":{"Clank":{
+"Ascendance":{"Clank":{
     "taille_min":50,
     "taille_max":250,
     "age_min": 10,
