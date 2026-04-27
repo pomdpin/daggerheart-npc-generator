@@ -1,23 +1,23 @@
-{"Classe":["Barde Troubadour",
-"Barde Beau-Parleur",
-"Druide des Éléments",
-"Druide du Renouveau",
-"Gardien Fidèle",
+{"Classe":["barde Troubadour",
+"barde beau-parleur",
+"druide des éléments",
+"druide du renouveau",
+"Gardien fidèle",
 "Gardien Vengeur",
-"Guerrier de la Bravoure",
+"Guerrier de la bravoure",
 "Guerrier Tueur de Monstres",
-"Magicien de l'Ecole de la Guerre",
-"Magicien de l'Ecole du Savoir",
-"Rodeur Pisteur",
-"Rodeur Maitre des Bêtes",
-"Roublard Marcheur d'Ombre",
-"Roublard du Syndicat",
-"Séraphin Porteur de Foi",
-"Séraphin Sentinelle Ailée",
-"Sorcier Élémentaire",
-"Sorcier Primordiale"],
+"Magicien de l'ecole de la Guerre",
+"Magicien de l'ecole du savoir",
+"rodeur pisteur",
+"rodeur Maitre des bêtes",
+"roublard Marcheur d'Ombre",
+"roublard du syndicat",
+"séraphin porteur de foi",
+"séraphin sentinelle ailée",
+"sorcier élémentaire",
+"sorcier primordiale"],
 
-"Ascendance":{"Clank":{
+"ascendance":{"Clank":{
     "taille_min":50,
     "taille_max":250,
     "age_min": 10,
@@ -29,37 +29,37 @@
     "age_min": 10,
     "age_max":100
 },
-"Drakona":{
+"drakona":{
     "taille_min": 150,
     "taille_max": 215,
     "age_min": 10,
     "age_max": 350
 },
-"Elfe":{
+"elfe":{
     "taille_min":180,
     "taille_max":200,
     "age_min": 10,
     "age_max": 350
 },
-"Faune":{
+"faune":{
     "taille_min": 122,
     "taille_max":198,
     "age_min": 10,
     "age_max": 225
 },
-"Firbolg":{
+"firbolg":{
     "taille_min":150,
     "taille_max":215,
     "age_min": 10,
     "age_max":150
 },
-"Fungil":{
+"fungil":{
     "taille_min":60,
     "taille_max":215,
     "age_min": 10,
     "age_max":300
 },
-"Fée":{
+"fée":{
     "taille_min":60,
     "taille_max":152,
     "age_min": 10,
@@ -95,7 +95,7 @@
     "age_min": 10,
     "age_max": 100
 },
-"Infernis":{
+"infernis":{
     "taille_min":150,
     "taille_max":215,
     "age_min": 10,
@@ -119,7 +119,7 @@
     "age_min": 10,
     "age_max": 125
 },
-"Simiah":{
+"simiah":{
     "taille_min":60,
     "taille_max":180,
     "age_min": 10,
@@ -127,76 +127,76 @@
 }
 },
 
-"Communauté": {"Communauté des Bas-Fonds":[
-    "Calculateur",
-    "Intelligent",
-    "Formidable",
-    "Tenace",
-    "Perceptif",
-    "Habile"
+"Communauté": {"Communauté des bas-fonds":[
+    "calculateur",
+    "intelligent",
+    "formidable",
+    "tenace",
+    "perceptif",
+    "habile"
 ],
 "Communauté Côtière":[
-    "Candide",
-    "Coopératif",
-    "Exhubérant",
-    "Fier",
-    "Résolu",
-    "Buriné"
+    "candide",
+    "coopératif",
+    "exhubérant",
+    "fier",
+    "résolu",
+    "buriné"
 ],
-"Communauté des Érudit":[
-    "Direct",
-    "Éloquent",
-    "Patient",
-    "Curieux",
-    "Désordonné",
-    "Ingénieux"
+"Communauté des érudit":[
+    "direct",
+    "éloquent",
+    "patient",
+    "xurieux",
+    "désordonné",
+    "ingénieux"
 ],
 "Communauté Montagnarde":[
-    "Loyal",
-    "Réservé",
-    "Borné",
-    "Audacieux",
-    "Robuste",
-    "Indomptable"
+    "loyal",
+    "réservé",
+    "borné",
+    "audacieux",
+    "robuste",
+    "indomptable"
 ],
 "Communauté des Nobles":[
-    "Amiable", 
-    "Candide", 
-    "Entreprenant",
-    "Prétentieux",
-    "Sournois",
-    "Imperturbable"
+    "amiable", 
+    "candide", 
+    "entreprenant",
+    "prétentieux",
+    "sournois",
+    "imperturbable"
 ],
 "Communauté Nomade":[
-    "Magnanime",
-    "Insondable",
-    "Avisé",
-    "Joyeux",
-    "Fiable",
-    "Peu orthodoxe"
+    "magnanime",
+    "insondable",
+    "avisé",
+    "joyeux",
+    "fiable",
+    "peu orthodoxe"
 ],
 "Communauté de l'Ordre":[
-    "Ambitieux",
-    "Pensif",
-    "Prudent",
-    "Stoic",
-    "Sardonique",
-    "Bienveillant"
+    "ambitieux",
+    "pensif",
+    "prudent",
+    "stoic",
+    "sardonique",
+    "bienveillant"
 ],
 "Communauté Sauvage":[
-    "Loyal",
-    "Encourageant",
-    "Sagace",
-    "Vif",
-    "Reclus",
-    "Robuste"
+    "loyal",
+    "encourageant",
+    "sagace",
+    "vif",
+    "reclus",
+    "robuste"
 ],
 "Communauté Souterraine":[
-    "Indomptable",
-    "Humble",
-    "Débrouillard",
-    "Insaissisable",
-    "Calme",
-    "Novateur"
+    "indomptable",
+    "humble",
+    "débrouillard",
+    "insaissisable",
+    "calme",
+    "novateur"
 ]}
 }
