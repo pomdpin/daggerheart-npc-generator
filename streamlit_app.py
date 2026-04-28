@@ -34,13 +34,10 @@ if st.button("Générer / Generate"):
     set_prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
     set_noms = namemaker.make_name_set(names["Noms de famille"], order=2, name_len_func=len, clean_up=True)
 
-    prenoms = set_prenoms.make_name()
-    noms = set_noms.make_name()
-
     pnjs = []
     for _ in range(nombre_pnj):
-        name = random.choice(prenoms)
-        surname = random.choice(noms)
+        name = set_prenoms.make_name()
+        surname = set_noms.make_name()
         descr_general = []
         descr_asc = []
         classe = random.choice(heritages["Classe"])
