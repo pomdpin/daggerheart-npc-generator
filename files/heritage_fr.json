@@ -128,75 +128,75 @@
 },
 
 "Communauté": {"Communauté des Bas-fonds":[
-    "calculateur",
-    "intelligent",
+    "calculateur/trice",
+    "intelligent(e)",
     "formidable",
     "tenace",
-    "perceptif",
+    "perceptif/ve",
     "habile"
 ],
 "Communauté Côtière":[
     "candide",
-    "coopératif",
-    "exhubérant",
-    "fier",
-    "résolu",
-    "buriné"
+    "coopératif/ve",
+    "exhubérant(e)",
+    "fier(e)",
+    "résolu(e)",
+    "buriné(e)"
 ],
 "Communauté des Érudit":[
-    "direct",
-    "éloquent",
-    "patient",
-    "xurieux",
-    "désordonné",
-    "ingénieux"
+    "direct(e)",
+    "éloquent(e)",
+    "patient(e)",
+    "curieux/se",
+    "désordonné(e)",
+    "ingénieux/se"
 ],
 "Communauté Montagnarde":[
-    "loyal",
-    "réservé",
-    "borné",
-    "audacieux",
+    "loyal(e)",
+    "réservé(e)",
+    "borné(e)",
+    "audacieux/se",
     "robuste",
     "indomptable"
 ],
 "Communauté des Nobles":[
     "amiable", 
     "candide", 
-    "entreprenant",
-    "prétentieux",
-    "sournois",
+    "entreprenant(e)",
+    "prétentieux/se",
+    "sournois(e)",
     "imperturbable"
 ],
 "Communauté Nomade":[
     "magnanime",
     "insondable",
-    "avisé",
-    "joyeux",
+    "avisé(e)",
+    "joyeux/se",
     "fiable",
     "peu orthodoxe"
 ],
 "Communauté de l'Ordre":[
-    "ambitieux",
-    "pensif",
-    "prudent",
+    "ambitieux/se",
+    "pensif/ve",
+    "prudent(e)",
     "stoic",
     "sardonique",
-    "bienveillant"
+    "bienveillant(e)"
 ],
 "Communauté Sauvage":[
-    "loyal",
-    "encourageant",
+    "loyal(e)",
+    "encourageant(e)",
     "sagace",
-    "vif",
-    "reclus",
+    "vif/vive",
+    "reclus(e)",
     "robuste"
 ],
 "Communauté Souterraine":[
     "indomptable",
     "humble",
-    "débrouillard",
+    "débrouillard(e)",
     "insaissisable",
     "calme",
-    "novateur"
+    "novateur/trice"
 ]}
 }
