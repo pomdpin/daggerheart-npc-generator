@@ -31,8 +31,11 @@ if st.button("Générer / Generate"):
         st.error(f"Error loading data: {e}")
         st.stop()
 
-    prenoms = namemaker.make_name_set(names["Prénoms"], order=1, name_len_func=len, clean_up=True, exclude_real_names = True, exclude_history = True, add_to_history = True , n_candidates = 5)
-    noms = namemaker.make_name_set(names["Noms de famille"], order=1, name_len_func=len, clean_up=True)
+    set_prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
+    set_noms = namemaker.make_name_set(names["Noms de famille"], order=2, name_len_func=len, clean_up=True)
+
+    prenoms = set_prenoms.make_name()
+    noms = set_noms.make_name()
 
     pnjs = []
     for _ in range(nombre_pnj):
