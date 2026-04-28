@@ -797,13 +797,13 @@
                 "est un(e) Biclope", 
                 "est un(e) Triclope"],
             "Couleurs de peau":[
-                "à la peau blanche",
-                "à la peau pâle",
-                "à la peau rosée",
-                "à la peau claire",
-                "à la peau matte",
-                "à la peau sombre",
-                "à la peau noire"],
+                "a la peau blanche",
+                "a la peau pâle",
+                "a la peau rosée",
+                "a la peau claire",
+                "a la peau matte",
+                "a la peau sombre",
+                "a la peau noire"],
             "Style":[
                 "et une coupe Afro", 
                 "et une coupe asymétrique",
@@ -1084,6 +1084,11 @@
                 "ressemble à un(e) lynx",
                 "ressemble à un(e) puma",
                 "ressemble à un(e) chat"],
+            "Apparence":[
+                "à l'apparence entièrement féline,", 
+                "à l'apparence principalement féline,", 
+                "à l'apparence principalement humanoïde,", 
+                "à l'apparence entièrement humanoïde,"],
             "couleur fourrure":[
                 "avec une fourrure calicot,", 
                 "avec une fourrure blanche,",
@@ -1098,11 +1103,6 @@
                 "avec une fourrure rosette,",
                 "avec une fourrure orange,", 
                 "avec une fourrure smoking,"],
-            "Apparence":[
-                "à une apparence féline,", 
-                "à une apparence principalement féline,", 
-                "à une apparence principalement humanoïde,", 
-                "à une apparence humanoïde,"],
             "Style":[
                 "et a une coupe Afro", 
                 "et a une coupe asymétrique",
@@ -1277,14 +1277,14 @@
                 "est un(e) Nasique", 
                 "est un(e) Singe-lion"],
             "couleur fourrure":[
-                "à la fourrure noire", 
-                "à la fourrure brune", 
-                "à la fourrure dorée", 
-                "à la fourrure argenté", 
-                "à la fourrure grise", 
-                "à la fourrure blanche", 
-                "à la fourrure rousse", 
-                "à la fourrure noire et blanche"]
+                "a la fourrure noire", 
+                "a la fourrure brune", 
+                "a la fourrure dorée", 
+                "a la fourrure argenté", 
+                "a la fourrure grise", 
+                "a la fourrure blanche", 
+                "a la fourrure rousse", 
+                "a la fourrure noire et blanche"]
         }
     }
 }
