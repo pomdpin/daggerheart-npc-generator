@@ -62,14 +62,14 @@
             "a party dress in shimmering fabric, decorated with sequins and pearls",
             "a thick, weather-worn leather jacket with a hood",
             "a traveling coat of gray wool, trimmed with fur",
-            "a hunter's outfit: leather jacket, reinforced pants, high boots",
-            "a nomad outfit: loose linen clothes, colorful scarf, sandals",
-            "a sailor's outfit: short oilcloth jacket, wide pants, rope belt",
-            "a mountaineer's outfit: thick wool coat, fur-lined boots, leather gloves",
-            "a forester's outfit: green leather jacket, durable pants, light cape",
-            "a deserter's outfit: disparate clothing, partial and damaged armor",
-            "a smuggler's outfit: dark clothes, hooded cape, silent boots",
-            "a pilgrim's outfit: simple dress, woolen cape, walking stick"
+            "a hunter's outfit: leather jacket, reinforced pants, high boots,",
+            "a nomad outfit: loose linen clothes, colorful scarf, sandals,",
+            "a sailor's outfit: short oilcloth jacket, wide pants, rope belt,",
+            "a mountaineer's outfit: thick wool coat, fur-lined boots, leather gloves,",
+            "a forester's outfit: green leather jacket, durable pants, light cape,",
+            "a deserter's outfit: disparate clothing, partial and damaged armor,",
+            "a smuggler's outfit: dark clothes, hooded cape, silent boots,",
+            "a pilgrim's outfit: simple dress, woolen cape, walking stick,"
         ],
         "Accessories":[
             "and a finely crafted silver earrings",
@@ -1130,15 +1130,15 @@
         "and has curly locks"
         ],
         "Hair colors ":[
-        "with black hair,",
-        "with brown hair,",
-        "with auburn hair,",
-        "with brown hair,",
-        "with red hair,",
-        "Venetian blond hair ,",
-        "with blond hair,",
-        "with white hair,",
-        "with hair of several colors,"
+        "with black hair",
+        "with brown hair",
+        "with auburn hair",
+        "with brown hair",
+        "with red hair",
+        "Venetian blond hair",
+        "with blond hair",
+        "with white hair",
+        "with hair of several colors"
         ]
         },
         "Dwarf":{
