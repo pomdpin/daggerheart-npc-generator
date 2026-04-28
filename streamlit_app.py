@@ -69,8 +69,8 @@ ________________________________________________________"""
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
 {name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
-\n{name} {phrase_descr_asc}
-{descr_general[3]}..
+\n{name} {phrase_descr_asc}.
+{descr_general[3]}.
 ________________________________________________________"""
 
         pnjs.append((pnj_name, pnj_desc))
