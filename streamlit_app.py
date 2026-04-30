@@ -83,3 +83,10 @@ ________________________________________________________"""
     for name, desc in pnjs:
         st.subheader(name)
         st.write(desc)
+
+st.write("""
+         ________________________________________
+         **Copyright/Attribution: Daggerheart**
+         \r*This project is unofficial fan content and is not approved or endorsed in any way by Critical Role.*
+         \r*This product includes materials from the **Daggerheart System Reference Document 1.0**, **© Critical Role, LLC.** under the terms of the **Darrington Press Community Gaming (DPCGL) License**. More information can be found at https://www.daggerheart.com. There are no previous modifications by others.*
+         \r*All Rights Reserved. Sous licence **Black Book Editions**, tous droits réservés.*""")
