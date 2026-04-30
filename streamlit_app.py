@@ -11,7 +11,7 @@ app_folder = Path("files")
 # Streamlit UI
 st.title("Daggerheart")
 st.header("Générateur de PNJs / NPC Generator")
-on = st.toggle("English")
+on = st.toggle("Toggle to switch to English")
 
 if on:
     nombre_pnj = st.number_input("How many NPCs ?", min_value=1, value=1)
