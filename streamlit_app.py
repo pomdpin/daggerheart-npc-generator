@@ -11,14 +11,18 @@ app_folder = Path("files")
 # Streamlit UI
 st.title("Daggerheart")
 st.header("Générateur de PNJs / NPC Generator")
-language = st.selectbox("Langue / Language", ["Français", "English"])
-nombre_pnj = st.number_input("Nombre de PNJs / How many NPCs", min_value=1, value=1)
+on = st.toggle("English")
+
+if on:
+    nombre_pnj = st.number_input("How many NPCs ?", min_value=1, value=1)
+else :
+    nombre_pnj = st.number_input("Combien de PNJs ?", min_value=1, value=1)
 
 if st.button("Générer / Generate"):
     # Load data based on language
-    file_name = "heritage_fr.json" if language == "Français" else "heritage_en.json"
-    file_descr = "description_fr.json" if language == "Français" else "description_en.json"
-    age_terme = "ans" if language == "Français" else "years old"
+    file_name = "heritage_en.json" if on else "heritage_fr.json"
+    file_descr = "description_en.json" if on else "description_fr.json"
+    age_terme = "years old" if on else "ans"
 
     try:
         with open(app_folder/"prenoms_noms.json", encoding="utf-8") as names:
@@ -58,19 +62,19 @@ if st.button("Générer / Generate"):
 
         phrase_descr_asc = " ".join(descr_asc)
 
-        if language == "Français":
-            pnj_name = f"{name} {surname}"
-            pnj_desc = f"""{classe} faisant partie de la {community},
-{name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
-\n{name} {phrase_descr_asc}.
-{descr_general[3]}
-________________________________________________________"""
-        else:
+        if on:
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
 {name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
 {descr_general[3]}.
+________________________________________________________"""
+        else :
+            pnj_name = f"{name} {surname}"
+            pnj_desc = f"""{classe} faisant partie de la {community},
+{name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
+\n{name} {phrase_descr_asc}.
+{descr_general[3]}
 ________________________________________________________"""
 
         pnjs.append((pnj_name, pnj_desc))
