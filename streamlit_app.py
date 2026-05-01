@@ -80,6 +80,7 @@ if st.button("Générer / Generate"):
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
 {name} est un(e) {ascendance_random} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
+<p>
 <p>{name} {phrase_descr_asc}.
 <p>{descr_general[3]}"""
 
