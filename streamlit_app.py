@@ -88,9 +88,9 @@ if st.button("Générer / Generate"):
     cols_per_row = 3
     cols = st.columns(cols_per_row)
     for i, (pnj_name, pnj_desc) in enumerate(pnjs):
-    with cols[i % cols_per_row]:
-        st.subheader(pnj_name)
-        st.write(pnj_desc)
+        with cols[i % cols_per_row]:
+            st.subheader(pnj_name)
+            st.write(pnj_desc)
 
 st.write("""
          ________________________________________
