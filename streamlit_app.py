@@ -62,8 +62,8 @@ if st.button("Générer / Generate"):
         for categorie in descriptions["General"]:
             descr_general.append(random.choice(descriptions["General"][categorie]))
 
-        for categorie in descriptions["Ascendance"][ascendance]:
-            valeur = random.choice(descriptions["Ascendance"][ascendance][categorie])
+        for categorie in descriptions["Ascendance"][ascendance_random]:
+            valeur = random.choice(descriptions["Ascendance"][ascendance_random][categorie])
             descr_asc.append(valeur)
             if categorie == "Style" and ("chauve" in valeur or "bald" in valeur):
                 continue
@@ -73,13 +73,13 @@ if st.button("Générer / Generate"):
         if on:
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
-{name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
+{name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance_random} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
 {descr_general[3]}."""
         else :
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
-{name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
+{name} est un(e) {ascendance_random} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
 {descr_general[3]}"""
 
