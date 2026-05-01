@@ -53,9 +53,9 @@ if st.button("Générer / Generate"):
         descr_general = []
         descr_asc = []
         classe = random.choice(heritages["Classe"])
-        ascendance = random.choice(ascendance)
-        age = random.randint(heritages["Ascendance"][ascendance]["age_min"], heritages["Ascendance"][ascendance]["age_max"])
-        taille = random.randint(heritages["Ascendance"][ascendance]["taille_min"], heritages["Ascendance"][ascendance]["taille_max"])
+        ascendance_random = random.choice(ascendance)
+        age = random.randint(heritages["Ascendance"][ascendance_random]["age_min"], heritages["Ascendance"][ascendance_random]["age_max"])
+        taille = random.randint(heritages["Ascendance"][ascendance_random]["taille_min"], heritages["Ascendance"][ascendance_random]["taille_max"])
         community = random.choice(list(heritages["Communauté"].keys()))
         personnality = random.choice(heritages["Communauté"][community])
 
@@ -87,12 +87,10 @@ if st.button("Générer / Generate"):
 
     cols_per_row = 3
     cols = st.columns(cols_per_row)
-    for i, pnj in enumerate(pnjs):
-        with cols[i % cols_per_row]:
-            # Display all PNJs
-            # for name, desc in pnjs:
-            st.subheader(pnj_name)
-            st.write(pnj_desc)
+    for i, (pnj_name, pnj_desc) in enumerate(pnjs):
+    with cols[i % cols_per_row]:
+        st.subheader(pnj_name)
+        st.write(pnj_desc)
 
 st.write("""
          ________________________________________
