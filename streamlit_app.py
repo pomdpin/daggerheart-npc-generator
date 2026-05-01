@@ -18,23 +18,25 @@ if on:
 else :
     nombre_pnj = st.number_input("Combien de PNJs ?", min_value=1, value=1)
 
+# Load data based on language
+file_name = "heritage_en.json" if on else "heritage_fr.json"
+file_descr = "description_en.json" if on else "description_fr.json"
+age_terme = "years old" if on else "ans"
+
+with open(app_folder/"prenoms_noms.json", encoding="utf-8") as names:
+    names = json.load(names)
+with open(app_folder/file_name, encoding="utf-8") as heritage:
+    heritages = json.load(heritage)
+with open(app_folder/file_descr, encoding="utf-8") as description:
+    descriptions = json.load(description)
+
+option_ancestry = heritages["Ascendance"]
+if on :
+    ascendance = st.pills("Choose one or several ancestries to generate from:", option_ancestry)
+else:
+    ascendance = st.pills("Choisissez une ou plusieurs ascendances à partir desquelles générer:", option_ancestry)
+
 if st.button("Générer / Generate"):
-    # Load data based on language
-    file_name = "heritage_en.json" if on else "heritage_fr.json"
-    file_descr = "description_en.json" if on else "description_fr.json"
-    age_terme = "years old" if on else "ans"
-
-    try:
-        with open(app_folder/"prenoms_noms.json", encoding="utf-8") as names:
-            names = json.load(names)
-        with open(app_folder/file_name, encoding="utf-8") as heritage:
-            heritages = json.load(heritage)
-        with open(app_folder/file_descr, encoding="utf-8") as description:
-            descriptions = json.load(description)
-    except Exception as e:
-        st.error(f"Error loading data: {e}")
-        st.stop()
-
     set_prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
     set_noms = namemaker.make_name_set(names["Noms de famille"], order=3, name_len_func=len, clean_up=True)
 
