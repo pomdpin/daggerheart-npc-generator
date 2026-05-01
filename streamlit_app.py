@@ -80,7 +80,7 @@ if st.button("Générer / Generate"):
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
 {name} est un(e) {ascendance_random} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
-\n{name} {phrase_descr_asc}.
+<p>{name} {phrase_descr_asc}.
 <p>{descr_general[3]}"""
 
         pnjs.append((pnj_name, pnj_desc))
@@ -90,7 +90,7 @@ if st.button("Générer / Generate"):
     for i, (pnj_name, pnj_desc) in enumerate(pnjs):
         with cols[i % cols_per_row]:
             st.markdown(f"""
-        <div style="height: 500px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; margin-bottom: 20px;text-align:justify;">
+        <div style="height: 450px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; margin-bottom: 20px;text-align:justify;">
             <h5>{pnj_name}</h5>
             {pnj_desc}</div>""", unsafe_allow_html=True)
 
