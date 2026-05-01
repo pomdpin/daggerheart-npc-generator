@@ -30,11 +30,17 @@ with open(app_folder/file_name, encoding="utf-8") as heritage:
 with open(app_folder/file_descr, encoding="utf-8") as description:
     descriptions = json.load(description)
 
-option_ancestry = heritages["Ascendance"]
+option_ancestry = list(heritages["Ascendance"].keys())
 if on :
     ascendance = st.pills("Choose one or several ancestries to generate from:", option_ancestry)
 else:
     ascendance = st.pills("Choisissez une ou plusieurs ascendances à partir desquelles générer:", option_ancestry)
+
+if not ascendance:
+    ascendance = option_ancestry
+# Ensure `ascendance` is always a list
+elif isinstance(ascendance, str):
+    ascendance = [ascendance]
 
 if st.button("Générer / Generate"):
     set_prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
@@ -47,7 +53,7 @@ if st.button("Générer / Generate"):
         descr_general = []
         descr_asc = []
         classe = random.choice(heritages["Classe"])
-        ascendance = random.choice(list(heritages["Ascendance"].keys()))
+        ascendance = random.choice(ascendance)
         age = random.randint(heritages["Ascendance"][ascendance]["age_min"], heritages["Ascendance"][ascendance]["age_max"])
         taille = random.randint(heritages["Ascendance"][ascendance]["taille_min"], heritages["Ascendance"][ascendance]["taille_max"])
         community = random.choice(list(heritages["Communauté"].keys()))
