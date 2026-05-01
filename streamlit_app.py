@@ -85,8 +85,8 @@ if st.button("Générer / Generate"):
         with cols[i % cols_per_row]:
             # Display all PNJs
             # for name, desc in pnjs:
-            st.subheader(name)
-            st.write(desc)
+            st.subheader(pnj_name)
+            st.write(pnj_desc)
 
 st.write("""
          ________________________________________
