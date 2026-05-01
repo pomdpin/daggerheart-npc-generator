@@ -89,8 +89,10 @@ if st.button("Générer / Generate"):
     cols = st.columns(cols_per_row)
     for i, (pnj_name, pnj_desc) in enumerate(pnjs):
         with cols[i % cols_per_row]:
-            st.subheader(pnj_name)
-            st.write(pnj_desc)
+            st.markdown(f"""
+        <div style="height: 300px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+            <h5>{pnj_name}</h5>
+            {pnj_desc}</div>""", unsafe_allow_html=True)
 
 st.write("""
          ________________________________________
