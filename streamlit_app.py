@@ -78,13 +78,15 @@ if st.button("Générer / Generate"):
 {descr_general[3]}"""
 
         pnjs.append((pnj_name, pnj_desc))
-cols_per_row = 3
-cols = st.columns(cols_per_row)
-for i, pnj in enumerate(pnjs):
-    with cols[i % cols_per_row]:
-        # Display all PNJs
-        st.subheader(name)
-        st.write(desc)
+
+    cols_per_row = 3
+    cols = st.columns(cols_per_row)
+    for i, pnj in enumerate(pnjs):
+        with cols[i % cols_per_row]:
+            # Display all PNJs
+            # for name, desc in pnjs:
+            st.subheader(name)
+            st.write(desc)
 
 st.write("""
          ________________________________________
