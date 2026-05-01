@@ -75,13 +75,13 @@ if st.button("Générer / Generate"):
             pnj_desc = f"""{community} {classe},
 {name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance_random} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
-{descr_general[3]}."""
+<p>{descr_general[3]}."""
         else :
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
 {name} est un(e) {ascendance_random} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
-{descr_general[3]}"""
+<p>{descr_general[3]}"""
 
         pnjs.append((pnj_name, pnj_desc))
 
