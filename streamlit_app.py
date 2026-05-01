@@ -90,7 +90,7 @@ if st.button("Générer / Generate"):
     for i, (pnj_name, pnj_desc) in enumerate(pnjs):
         with cols[i % cols_per_row]:
             st.markdown(f"""
-        <div style="height: 300px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+        <div style="height: 500px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; margin-bottom: 20px;text-align:justify;">
             <h5>{pnj_name}</h5>
             {pnj_desc}</div>""", unsafe_allow_html=True)
 
