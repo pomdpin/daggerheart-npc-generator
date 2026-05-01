@@ -69,22 +69,23 @@ if st.button("Générer / Generate"):
             pnj_desc = f"""{community} {classe},
 {name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
-{descr_general[3]}.
-________________________________________________________"""
+{descr_general[3]}."""
         else :
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
 {name} est un(e) {ascendance} {personnality} de {age}{age_terme} aux yeux {descr_general[0]} mesurant {taille}cm, vêtu {descr_general[1]} {descr_general[2]}.
 \n{name} {phrase_descr_asc}.
-{descr_general[3]}
-________________________________________________________"""
+{descr_general[3]}"""
 
         pnjs.append((pnj_name, pnj_desc))
 
-    # Display all PNJs
-    for name, desc in pnjs:
-        st.subheader(name)
-        st.write(desc)
+cols = st.columns(2)
+for i, pnj in enumerate(pnjs):
+    with cols[i % 2]:
+        # Display all PNJs
+        for name, desc in pnjs:
+            st.subheader(name)
+            st.write(desc)
 
 st.write("""
          ________________________________________
