@@ -33,8 +33,10 @@ with open(app_folder/file_descr, encoding="utf-8") as description:
 option_ancestry = list(heritages["Ascendance"].keys())
 if on :
     ascendance = st.pills("Choose one or several ancestries to generate from:", option_ancestry)
+    create = st.button("Generate")
 else:
     ascendance = st.pills("Choisissez une ou plusieurs ascendances à partir desquelles générer:", option_ancestry)
+    create = st.button("Générer")
 
 if not ascendance:
     ascendance = option_ancestry
@@ -42,7 +44,8 @@ if not ascendance:
 elif isinstance(ascendance, str):
     ascendance = [ascendance]
 
-if st.button("Générer / Generate"):
+
+if create:
     set_prenoms = namemaker.make_name_set(names["Prénoms"], order=3, name_len_func=len, clean_up=True)
     set_noms = namemaker.make_name_set(names["Noms de famille"], order=3, name_len_func=len, clean_up=True)
 
@@ -74,8 +77,9 @@ if st.button("Générer / Generate"):
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{community} {classe},
 {name} is a {personnality} {age} {age_terme} / {taille} cm {ascendance_random} with {descr_general[0]} eyes, wearing {descr_general[1]} {descr_general[2]}.
-\n{name} {phrase_descr_asc}.
-<p>{descr_general[3]}."""
+<p>
+<p>{name} {phrase_descr_asc}.
+<p>{descr_general[3]}"""
         else :
             pnj_name = f"{name} {surname}"
             pnj_desc = f"""{classe} faisant partie de la {community},
