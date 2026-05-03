@@ -19,8 +19,8 @@
 
 "Ascendance":{"Clank":{
     "taille_min":50,
-    "taille_max":250,
-    "age_min": 10,
+    "taille_max":350,
+    "age_min": 1,
     "age_max":1000
 }, 
 "Ribbet":{
@@ -62,7 +62,7 @@
 "Faery":{
     "taille_min":60,
     "taille_max":152,
-    "age_min": 10,
+    "age_min": 5,
     "age_max": 50
 },
 "Galapa":{
@@ -74,7 +74,7 @@
 "Giant":{
     "taille_min":200,
     "taille_max":260,
-    "age_min": 10,
+    "age_min": 7,
     "age_max": 75
 },
 "Goblin":{
