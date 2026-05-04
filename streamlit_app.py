@@ -35,7 +35,7 @@ if on :
     ascendance = st.pills("Choose one or several ancestries to generate from:", option_ancestry)
     create = st.button("Generate")
 else:
-    ascendance = st.pills("Choisissez une ou plusieurs ascendances à partir desquelles générer:", option_ancestry)
+    ascendance = st.pills("Choisissez une ou plusieurs ascendances à partir desquelles générer:", option_ancestry, selection_mode="multi")
     create = st.button("Générer")
 
 if not ascendance:
